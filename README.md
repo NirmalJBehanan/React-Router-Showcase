@@ -1,16 +1,106 @@
-# React + Vite
+# React Router Showcase
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple multi-page React application demonstrating **React Router DOM** with nested routing, navigation, and error handling.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* 🌐 Netlify: [React Router Showcase Live Demo](https://react-router-showcase.netlify.app/?utm_source=chatgpt.com)
+* 💻 GitHub Repository: [React Router Showcase GitHub Repo](https://github.com/NirmalJBehanan/React-Router-Showcase?utm_source=chatgpt.com)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📌 Features
 
-## Expanding the ESLint configuration
+* React Router DOM implementation
+* Nested routing using `children`
+* Multiple pages:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+  * Home
+  * About
+  * Contact
+  * Service
+* Custom error page
+* Reusable template layout
+* Clean and responsive UI
+
+---
+
+## 🛠️ Technologies Used
+
+* React.js
+* React Router DOM
+* CSS3
+* JavaScript (ES6)
+
+---
+
+## 📂 Project Structure
+
+```bash
+src/
+ ├── components/
+ │    ├── Home.jsx
+ │    ├── About.jsx
+ │    ├── Contact.jsx
+ │    ├── Service.jsx
+ │    ├── Template.jsx
+ │    └── Error.jsx
+ │
+ ├── App.jsx
+ ├── App.css
+ └── main.jsx
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/NirmalJBehanan/React-Router-Showcase.git
+```
+
+Navigate to the project folder:
+
+```bash
+cd React-Router-Showcase
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## 📖 Learning Concepts
+
+This project helps in understanding:
+
+* Browser routing in React
+* Nested routes
+* Layout components
+* Error page handling
+* Navigation structure in SPA applications
+
+---
+
+## 👨‍💻 Author
+
+Developed by **Nirmal J Behanan**
+
+* GitHub: [NirmalJBehanan GitHub Profile](https://github.com/NirmalJBehanan?utm_source=chatgpt.com)
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub.
